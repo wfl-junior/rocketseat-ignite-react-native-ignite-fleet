@@ -5,6 +5,8 @@
     "strictNullChecks": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noImplicitAny": true
+    "noImplicitAny": true,
+    "typeRoots": ["node_modules/@types", "./src/@types"],
+    "types": ["@types/styled-components-react-native"]
   }
 }
