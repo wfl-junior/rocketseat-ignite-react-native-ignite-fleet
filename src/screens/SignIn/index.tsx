@@ -1,5 +1,6 @@
 import type { JSX } from "react";
 import backgroundImage from "../../assets/background.png";
+import { Button } from "../../components/Button";
 import { Container, Slogan, Title } from "./styles";
 
 interface SignInProps {}
@@ -9,6 +10,7 @@ export function SignIn({}: SignInProps): JSX.Element | null {
     <Container source={backgroundImage}>
       <Title>Ignite Fleet</Title>
       <Slogan>Gestão de uso de veículos</Slogan>
+      <Button title="Entrar com Google" />
     </Container>
   );
 }
